@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "https://minhduc5a12.github.io/csb-epw0fg/static/css/main.c4900379.chunk.css",
+    "main.js": "https://minhduc5a12.github.io/csb-epw0fg/static/js/main.e930f747.chunk.js",
+    "main.js.map": "https://minhduc5a12.github.io/csb-epw0fg/static/js/main.e930f747.chunk.js.map",
+    "runtime-main.js": "https://minhduc5a12.github.io/csb-epw0fg/static/js/runtime-main.7f9dad28.js",
+    "runtime-main.js.map": "https://minhduc5a12.github.io/csb-epw0fg/static/js/runtime-main.7f9dad28.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "https://minhduc5a12.github.io/csb-epw0fg/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.036c762b.chunk.js": "https://minhduc5a12.github.io/csb-epw0fg/static/js/2.036c762b.chunk.js",
+    "static/js/2.036c762b.chunk.js.map": "https://minhduc5a12.github.io/csb-epw0fg/static/js/2.036c762b.chunk.js.map",
+    "index.html": "https://minhduc5a12.github.io/csb-epw0fg/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "https://minhduc5a12.github.io/csb-epw0fg/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.c4900379.chunk.css.map": "https://minhduc5a12.github.io/csb-epw0fg/static/css/main.c4900379.chunk.css.map",
+    "static/js/2.036c762b.chunk.js.LICENSE.txt": "https://minhduc5a12.github.io/csb-epw0fg/static/js/2.036c762b.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "https://minhduc5a12.github.io/csb-epw0fg/static/media/Spaceship.0634278e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f9dad28.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.036c762b.chunk.js",
+    "static/css/main.c4900379.chunk.css",
+    "static/js/main.e930f747.chunk.js"
+  ]
+}
