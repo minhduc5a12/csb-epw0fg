@@ -1,30 +1,15 @@
-document.onkeydown = (e) => {
-  switch (e.keyCode) {
-    case 123:
-      return false;
-      break;
-    case 17 && 80:
-      return false;
-      break;
-    case 17 && 85:
-      return false;
-      break;
-    case 17 && 79:
-      return false;
-      break;
-    case 17 && 83:
-      return false;
-      break;
-    case 17 && 16 && 67:
-      return false;
-      break;
-    case 17 && 16 && 73:
-      return false;
-      break;
-    case 17 && 16 && 74:
-      return false;
-      break;
+$(document).keydown((e) => {
+  if (e.keyCode === 123) {
+    return false;
+  } else if (
+    (e.ctrlKey && e.shiftKey && e.keyCode === 67) ||
+    (e.ctrlKey && e.shiftKey && e.keyCode === 73) ||
+    (e.ctrlKey && e.shiftKey && e.keyCode === 74) ||
+    (e.ctrlKey && e.keyCode === 80) ||
+    (e.ctrlKey && e.keyCode === 83) ||
+    (e.ctrlKey && e.keyCode === 85)
+  ) {
+    return false;
   }
-};
-document.addEventListener("contextmenu", (event) => event.preventDefault());
-//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+});
+document.addeEventListener("contextmenu", (e) => e.preDefault());
