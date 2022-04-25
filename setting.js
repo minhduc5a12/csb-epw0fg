@@ -1,4 +1,4 @@
-$(document).keydown((e) => {
+document.onkeydown = (e) => {
   if (e.keyCode === 123) {
     return false;
   } else if (
@@ -11,5 +11,5 @@ $(document).keydown((e) => {
   ) {
     return false;
   }
-});
+};
 document.addEventListener("contextmenu", (event) => event.preventDefault());
