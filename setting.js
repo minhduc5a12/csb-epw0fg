@@ -12,4 +12,4 @@ $(document).keydown((e) => {
     return false;
   }
 });
-document.addeEventListener("contextmenu", (e) => e.preDefault());
+document.addEventListener("contextmenu", (event) => event.preventDefault());
